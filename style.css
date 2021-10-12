@@ -1,0 +1,100 @@
+.navbar-section {
+    margin-top: 40px;
+    padding: 2px;
+}
+
+.nav {
+    color: #666666;
+    opacity: 60%;
+}
+
+.navbar-section-part {
+    text-decoration: none;
+    font-size: 21px;
+    color: #666666;
+    font-weight: 400;
+}
+.nav-para {
+    font-size: 21px;
+    color: #666666;
+    font-weight: 400;
+
+    padding-right: 2px;
+}
+.interactive-section {
+    margin-top: 40px;
+}
+
+.interactive {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+.management {
+    font-weight: 600;
+    color: rgb(99, 0, 99);
+}
+
+.middle-part {
+    padding-right: 5px;
+    width: 75%;
+}
+
+.intro-part {
+    margin-top: 20px;
+}
+
+.intro {
+    margin-top: 80px;
+    color: rgb(99, 0, 99);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.right-part {
+    margin-top: 300px;
+}
+
+.right {
+    border: 1px solid rgb(9, 9, 134);
+    width: 400px;
+    height: 230px;
+    text-align: justify;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+.task {
+    color: rgb(11, 11, 145);
+    font-weight: 700;
+}
+.subject {
+    color: black;
+    font-weight: 400;
+}
+.image-section {
+    margin-bottom: 20px;
+}
+
+.progress-section {
+    display: flex;
+    padding: 7px;
+    justify-content: space-around;
+}
+.progress {
+    width: 160px;
+}
+
+.progress-bar {
+    background-color: purple;
+}
+
+.concluded {
+    font-size: 12px;
+    font-weight: 400;
+    color: #b5bbc8;
+    font-style: normal;
+    margin-left: 4px;
+}
