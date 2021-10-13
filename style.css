@@ -1,45 +1,63 @@
+.main-section {
+    width: 1400px;
+}
+
+.row {
+    align-items: center;
+}
+
 .navbar-section {
+    height: 27px;
+    width: 606px;
     margin-top: 40px;
     padding: 2px;
 }
 
-.nav {
-    color: #666666;
-    opacity: 60%;
-}
-
 .navbar-section-part {
     text-decoration: none;
-    font-size: 21px;
-    color: #666666;
+    font-size: 20px;
+    color: #9497a2;
     font-weight: 400;
 }
 .nav-para {
-    font-size: 21px;
-    color: #666666;
-    font-weight: 400;
-
-    padding-right: 2px;
+    color: #9497a2;
+    font-family: "Neue Haas Unica";
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
 }
 .interactive-section {
     margin-top: 40px;
+    height: 39px;
+    width: 443px;
 }
 
 .interactive {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    color: black;
-    font-weight: 400;
+    color: #2f3332;
+    font-family: "Neue Haas Unica";
     font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.management-section {
+    width: 1170px;
+    height: 85px;
 }
 .management {
     font-weight: 600;
-    color: rgb(99, 0, 99);
+
+    color: #593c6e;
+    font-family: "Neue Haas Unica";
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 48px;
 }
 
 .middle-part {
     padding-right: 5px;
-    width: 75%;
+    width: 670px;
+    height: 254px;
 }
 
 .intro-part {
@@ -48,9 +66,19 @@
 
 .intro {
     margin-top: 80px;
-    color: rgb(99, 0, 99);
+    color: #593c6e;
+    font-family: "Neue Haas Unica";
     font-weight: 700;
     margin-bottom: 15px;
+}
+.intro-para {
+    height: 254px;
+    width: 670px;
+    color: #2f3332;
+    font-family: "Neue Haas Unica";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
 }
 
 .right-part {
@@ -58,16 +86,18 @@
 }
 
 .right {
-    border: 1px solid rgb(9, 9, 134);
-    width: 400px;
-    height: 230px;
+    border: 1px solid #115ca8;
+    box-sizing: border-box;
+    height: 233px;
+    width: 369px;
     text-align: justify;
     padding: 5px;
     padding-top: 20px;
 }
 
 .task {
-    color: rgb(11, 11, 145);
+    color: #115ca8;
+
     font-weight: 700;
 }
 .subject {
@@ -77,18 +107,30 @@
 .image-section {
     margin-bottom: 20px;
 }
+.image {
+    width: 1170px;
+    height: 658px;
+}
 
 .progress-section {
     display: flex;
+    width: 1170px;
     padding: 7px;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+.progress-part {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: space-evenly;
 }
 .progress {
     width: 160px;
 }
 
 .progress-bar {
-    background-color: purple;
+    background-color: #593c6e;
 }
 
 .concluded {
@@ -96,5 +138,32 @@
     font-weight: 400;
     color: #b5bbc8;
     font-style: normal;
-    margin-left: 4px;
+    padding-left: 0px;
+}
+
+.resume {
+    height: 44px;
+    width: 282px;
+    color: #ffffff;
+    font-family: "Neue Haas Unica";
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: center;
+    background-color: #593c6e;
+    border-radius: 12px;
+    border: none;
+}
+.mark-as {
+    width: 326px;
+    color: #593c6e;
+    font-family: "Neue Haas Unica";
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #ffffff;
+}
+.star {
+    height: 24.89px;
+    width: 26.12px;
 }
