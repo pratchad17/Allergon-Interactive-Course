@@ -1,0 +1,154 @@
+.main-section {
+    width: 1400px;
+}
+
+.row {
+    align-items: center;
+}
+
+.navbar-section {
+    height: 27px;
+    width: 606px;
+    margin-top: 40px;
+    padding: 2px;
+}
+
+.navbar-section-part {
+    text-decoration: none;
+    font-size: 20px;
+    color: #9497a2;
+    font-weight: 400;
+}
+.nav-para {
+    color: #9497a2;
+    font-family: "Neue Haas Unica";
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.video-section {
+    margin-top: 40px;
+    height: 39px;
+    width: 443px;
+}
+
+.video {
+    color: #2f3332;
+    font-family: "Neue Haas Unica";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.management-section {
+    width: 1170px;
+    height: 85px;
+}
+.management {
+    font-weight: 600;
+
+    color: #593c6e;
+    font-family: "Neue Haas Unica";
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 48px;
+}
+
+.middle-part {
+    padding-right: 5px;
+    width: 670px;
+    height: 254px;
+}
+
+.intro-part {
+    margin-top: 20px;
+}
+
+.intro {
+    margin-top: 80px;
+    color: #593c6e;
+    font-family: "Neue Haas Unica";
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.intro-para {
+    height: 254px;
+    width: 670px;
+    color: #2f3332;
+    font-family: "Neue Haas Unica";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.right-part {
+    margin-top: 180px;
+}
+
+.right {
+    border: 1px solid #115ca8;
+    box-sizing: border-box;
+    height: 233px;
+    width: 369px;
+    text-align: justify;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+.task {
+    color: #115ca8;
+
+    font-weight: 700;
+}
+.subject {
+    color: black;
+    font-weight: 400;
+}
+.image-section {
+    margin-bottom: 20px;
+}
+.image {
+    width: 1170px;
+    height: 658px;
+}
+
+.progress-section {
+    display: flex;
+    width: 1200px;
+    padding: 7px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.progress-part {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: space-evenly;
+}
+.progress {
+    width: 160px;
+}
+
+.progress-bar {
+    background-color: #593c6e;
+}
+
+.concluded {
+    font-size: 12px;
+    font-weight: 400;
+    color: #b5bbc8;
+    font-style: normal;
+    padding-left: 0px;
+}
+
+.star {
+    height: 24.89px;
+    width: 26.12px;
+    color: #593c6e;
+}
+
+.share-button {
+    height: 25.5px;
+    width: 26.39px;
+    color: #9497a2;
+}
