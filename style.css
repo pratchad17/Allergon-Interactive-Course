@@ -166,4 +166,11 @@
 .star {
     height: 24.89px;
     width: 26.12px;
+    color: #593c6e;
+}
+
+.share-button {
+    height: 25.5px;
+    width: 26.39px;
+    color: #9497a2;
 }
