@@ -141,7 +141,7 @@
     padding-left: 0px;
 }
 
-.resume {
+.download {
     height: 44px;
     width: 282px;
     color: #ffffff;
@@ -155,7 +155,7 @@
     border-radius: 12px;
     border: none;
 }
-.mark-as {
+.restart-course {
     width: 326px;
     color: #593c6e;
     font-family: "Neue Haas Unica";
