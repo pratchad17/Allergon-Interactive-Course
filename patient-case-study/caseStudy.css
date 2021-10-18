@@ -6,44 +6,44 @@
     align-items: center;
 }
 
-.navbar-section {
+.mod-custommod-navbar-section {
     height: 27px;
     width: 606px;
     margin-top: 40px;
     padding: 2px;
 }
 
-.navbar-section-part {
+.mod-custommod-navbar-section-part {
     text-decoration: none;
     font-size: 20px;
     color: #9497a2;
     font-weight: 400;
 }
-.nav-para {
+.mod-custommod-nav-para {
     color: #9497a2;
     font-family: "Neue Haas Unica";
     font-size: 20px;
     letter-spacing: 0;
     line-height: 24px;
 }
-.video-section {
+.mod-custommod-video-section {
     margin-top: 40px;
     height: 39px;
     width: 443px;
 }
 
-.video {
+.mod-custommod-video {
     color: #2f3332;
     font-family: "Neue Haas Unica";
     font-size: 18px;
     letter-spacing: 0;
     line-height: 24px;
 }
-.management-section {
+.mod-custommod-management-section {
     width: 1170px;
     height: 85px;
 }
-.management {
+.mod-custommod-management {
     font-weight: 600;
 
     color: #593c6e;
@@ -54,24 +54,24 @@
     line-height: 48px;
 }
 
-.middle-part {
+.mod-custommod-middle-part {
     padding-right: 5px;
     width: 670px;
     height: 254px;
 }
 
-.intro-part {
+.mod-custommod-intro-part {
     margin-top: 20px;
 }
 
-.intro {
+.mod-custommod-intro {
     margin-top: 80px;
     color: #593c6e;
     font-family: "Neue Haas Unica";
     font-weight: 700;
     margin-bottom: 15px;
 }
-.intro-para {
+.mod-custommod-intro-para {
     height: 254px;
     width: 670px;
     color: #2f3332;
@@ -81,11 +81,11 @@
     line-height: 24px;
 }
 
-.right-part {
+.mod-custommod-right-part {
     margin-top: 180px;
 }
 
-.right {
+.mod-custommod-right {
     border: 1px solid #115ca8;
     box-sizing: border-box;
     height: 233px;
@@ -95,31 +95,31 @@
     padding-top: 20px;
 }
 
-.task {
+.mod-custommod-task {
     color: #115ca8;
 
     font-weight: 700;
 }
-.subject {
+.mod-custommod-subject {
     color: black;
     font-weight: 400;
 }
-.image-section {
+.mod-custommod-image-section {
     margin-bottom: 20px;
 }
-.image {
+.mod-custommod-image {
     width: 1170px;
     height: 658px;
 }
 
-.progress-section {
+.mod-custommod-progress-section {
     display: flex;
     width: 1200px;
     padding: 7px;
     justify-content: flex-end;
     align-items: center;
 }
-.progress-part {
+.mod-custommod-progress-part {
     display: flex;
     align-items: center;
     width: 350px;
@@ -133,7 +133,7 @@
     background-color: #593c6e;
 }
 
-.concluded {
+.mod-custommod-concluded {
     font-size: 12px;
     font-weight: 400;
     color: #b5bbc8;
@@ -141,13 +141,13 @@
     padding-left: 0px;
 }
 
-.star {
+.mod-custommod-star {
     height: 24.89px;
     width: 26.12px;
     color: #593c6e;
 }
 
-.share-button {
+.mod-custommod-share-button {
     height: 25.5px;
     width: 26.39px;
     color: #9497a2;
