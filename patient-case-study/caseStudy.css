@@ -1,3 +1,6 @@
+.body {
+    overflow-x: hidden;
+}
 .main-section {
     width: 1400px;
 }
@@ -108,7 +111,7 @@
     margin-bottom: 20px;
 }
 .mod-custommod-image {
-    width: 1170px;
+    width: auto;
     height: 658px;
 }
 
@@ -151,4 +154,25 @@
     height: 25.5px;
     width: 26.39px;
     color: #9497a2;
+}
+
+@media only screen and (max-width: 400px) {
+    .mod-custommod-intro-para {
+        font-size: 24px;
+        line-height: normal;
+        font-family: none;
+    }
+
+    .mod-custommod-intro {
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .mod-custommod-task {
+        font-size: 24px;
+    }
+    .mod-custommod-right {
+        height: none;
+        width: 410px;
+        height: 285px;
+    }
 }
