@@ -60,12 +60,8 @@
     height: 254px;
 }
 
-.intro-part {
-    margin-top: 20px;
-}
-
 .intro {
-    margin-top: 80px;
+    /* margin-top: 80px; */
     color: #593c6e;
     font-family: "Neue Haas Unica";
     font-weight: 700;
@@ -82,7 +78,7 @@
 }
 
 .right-part {
-    margin-top: 300px;
+    margin-top: 180px;
 }
 
 .right {
@@ -108,7 +104,7 @@
     margin-bottom: 20px;
 }
 .image {
-    width: 1170px;
+    width: auto;
     height: 658px;
 }
 
@@ -173,4 +169,28 @@
     height: 25.5px;
     width: 26.39px;
     color: #9497a2;
+}
+
+@media only screen and (max-width: 400px) {
+    .intro-para {
+        font-size: 25px;
+        line-height: normal;
+        font-family: sans-serif;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .intro {
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .task {
+        font-size: 24px;
+    }
+    .right {
+        height: none;
+        width: 410px;
+        height: 285px;
+        margin-top: 25px;
+    }
 }
