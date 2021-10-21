@@ -8,6 +8,7 @@ body {
     width: 100%;
 
     margin: 0;
+    padding-left: 120px;
 }
 
 .row {
@@ -112,6 +113,19 @@ body {
     color: black;
     font-weight: 400;
 }
+
+.mod-custommod-pre-next {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    padding: 4px;
+}
+.mod-custommod-pre-next .pre-items {
+    color: #593c6e;
+    font-family: "Neue Haas Unica";
+    font-weight: 700;
+}
+
 .mod-custommod-image-section {
     margin-bottom: 20px;
 }
@@ -124,8 +138,23 @@ body {
     display: flex;
     width: 1200px;
     padding: 7px;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+}
+
+.mod-custommod-mark {
+    height: 44px;
+    width: 282px;
+    color: #ffffff;
+    font-family: "Neue Haas Unica";
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: center;
+    background-color: #593c6e;
+    border-radius: 12px;
+    border: none;
 }
 .mod-custommod-progress-part {
     display: flex;
@@ -162,6 +191,9 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
+    .main-section {
+        padding-left: none;
+    }
     .mod-custommod-intro-para {
         font-size: 24px;
         line-height: normal;
