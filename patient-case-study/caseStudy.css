@@ -8,7 +8,7 @@ body {
     width: 100%;
 
     margin: 0;
-    padding-left: 120px;
+    padding-left: 110px;
 }
 
 .row {
@@ -18,6 +18,7 @@ body {
 .mod-custommod-navbar-section {
     height: 27px;
     width: 606px;
+    /* max-width: 100%; */
     margin-top: 40px;
     padding: 2px;
 }
@@ -90,15 +91,18 @@ body {
     line-height: 24px;
 }
 
-.mod-custommod-right-part {
-    margin-top: 180px;
+/* .mod-custommod-right-part {
+    margin-top: 150px;
+} */
+.mod-custommod-box-part {
+    margin-top: 80px;
+    padding-left: 20px;
 }
-
 .mod-custommod-right {
     border: 1px solid #115ca8;
     box-sizing: border-box;
-    height: 233px;
-    width: 369px;
+    /* height: 233px; */
+    width: 80%;
     text-align: justify;
     padding: 5px;
     padding-top: 20px;
@@ -195,21 +199,36 @@ body {
         padding-left: none;
     }
     .mod-custommod-intro-para {
-        font-size: 24px;
+        font-size: 28px;
         line-height: normal;
-        font-family: none;
+        font-family: "Neue Haas Unica";
+        font-weight: 500;
     }
 
     .mod-custommod-intro {
         font-weight: 900;
-        font-size: 30px;
+        font-size: 32px;
     }
     .mod-custommod-task {
-        font-size: 24px;
+        font-size: 28px;
+    }
+    .mod-custommod-subject {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .mod-custommod-right-part {
+        margin-left: 140px;
     }
     .mod-custommod-right {
-        height: none;
-        width: 410px;
-        height: 285px;
+        width: 500px;
+        /* height: 350px; */
+    }
+    .mod-custommod-last-section {
+        padding-left: 60px;
+        padding-right: 20px;
+    }
+    .mod-custommod-pre-next .pre-items {
+        font-size: 24px;
+        font-weight: 900;
     }
 }
