@@ -123,11 +123,15 @@ body {
     justify-content: space-between;
     width: 1170px;
     padding: 4px;
+
+    padding-bottom: 10px;
+    margin-bottom: 5px;
 }
 .mod-custommod-pre-next .pre-items {
     color: #593c6e;
     font-family: "Neue Haas Unica";
     font-weight: 700;
+    font-size: 20px;
 }
 
 .mod-custommod-image-section {
@@ -234,6 +238,7 @@ body {
         padding-left: 60px;
         padding-right: 20px;
     }
+
     .mod-custommod-pre-next .pre-items {
         font-size: 24px;
         font-weight: 900;
