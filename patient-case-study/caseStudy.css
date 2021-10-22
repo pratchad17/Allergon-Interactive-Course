@@ -198,6 +198,13 @@ body {
     .main-section {
         padding-left: none;
     }
+
+    .mod-custommod-video {
+        font-size: 24px;
+        font-weight: 700;
+        color: #2f3332;
+        font-family: "Neue Haas Unica";
+    }
     .mod-custommod-intro-para {
         font-size: 28px;
         line-height: normal;
