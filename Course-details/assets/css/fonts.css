@@ -1,0 +1,57 @@
+@font-face {
+    font-family: NeueHaasUnica Bold;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/35CFCC_0_0.eot);
+    src: url(../fonts/35CFCC_0_0.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/35CFCC_0_0.woff2) format("woff2"),
+        url(../fonts/35CFCC_0_0.woff) format("woff");
+}
+@font-face {
+    font-family: NeueHaasUnica Bold Italic;
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/35CFCC_1_0.eot);
+    src: url(../fonts/35CFCC_1_0.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/35CFCC_1_0.woff2) format("woff2"),
+        url(../fonts/35CFCC_1_0.woff) format("woff");
+}
+@font-face {
+    font-family: NeueHaasUnica Italic;
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/35CFCC_2_0.eot);
+    src: url(../fonts/35CFCC_2_0.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/35CFCC_2_0.woff2) format("woff2"),
+        url(../fonts/35CFCC_2_0.woff) format("woff");
+}
+@font-face {
+    font-family: NeueHaasUnica Light Italic;
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/35CFCC_3_0.eot);
+    src: url(../fonts/35CFCC_3_0.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/35CFCC_3_0.woff2) format("woff2"),
+        url(../fonts/35CFCC_3_0.woff) format("woff");
+}
+@font-face {
+    font-family: NeueHaasUnica Light;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/35CFCC_4_0.eot);
+    src: url(../fonts/35CFCC_4_0.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/35CFCC_4_0.woff2) format("woff2"),
+        url(../fonts/35CFCC_4_0.woff) format("woff");
+}
+@font-face {
+    font-family: NeueHaasUnica Regular;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/35CFCC_5_0.eot);
+    src: url(../fonts/35CFCC_5_0.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/35CFCC_5_0.woff2) format("woff2"),
+        url(../fonts/35CFCC_5_0.woff) format("woff");
+}

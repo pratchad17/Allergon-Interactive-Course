@@ -4,20 +4,12 @@ body {
     padding: 0;
 }
 
-.main-section {
-    width: 100%;
-
-    margin: 0;
-    padding-left: 110px;
-}
-
 .row {
     align-items: center;
 }
 
 .mod-custommod-navbar-section {
-    height: 27px;
-    width: 606px;
+    width: 100%;
     /* max-width: 100%; */
     margin-top: 40px;
     padding: 2px;
@@ -38,8 +30,8 @@ body {
 }
 .mod-custommod-video-section {
     margin-top: 40px;
-    height: 39px;
-    width: 443px;
+
+    width: 100%;
 }
 
 .mod-custommod-video {
@@ -50,8 +42,7 @@ body {
     line-height: 24px;
 }
 .mod-custommod-management-section {
-    width: 1170px;
-    height: 85px;
+    width: 100%;
 }
 .mod-custommod-management {
     font-weight: 600;
@@ -66,8 +57,7 @@ body {
 
 .mod-custommod-middle-part {
     padding-right: 5px;
-    width: 670px;
-    height: 254px;
+    width: 100%;
 }
 
 .mod-custommod-intro-part {
@@ -82,8 +72,7 @@ body {
     margin-bottom: 15px;
 }
 .mod-custommod-intro-para {
-    height: 254px;
-    width: 670px;
+    width: 100%;
     color: #2f3332;
     font-family: "Neue Haas Unica";
     font-size: 16px;
@@ -101,8 +90,7 @@ body {
 .mod-custommod-right {
     border: 1px solid #115ca8;
     box-sizing: border-box;
-    /* height: 233px; */
-    width: 80%;
+    width: 100%;
     text-align: justify;
     padding: 5px;
     padding-top: 20px;
@@ -121,7 +109,7 @@ body {
 .mod-custommod-pre-next {
     display: flex;
     justify-content: space-between;
-    width: 1170px;
+    width: 100%;
     padding: 4px;
 
     padding-bottom: 10px;
@@ -138,13 +126,13 @@ body {
     margin-bottom: 20px;
 }
 .mod-custommod-image {
-    width: auto;
-    height: 658px;
+    width: 100%;
+    /* height: 658px; */
 }
 
 .mod-custommod-progress-section {
     display: flex;
-    width: 1200px;
+    width: 100%;
     padding: 7px;
     justify-content: space-between;
     align-items: center;
@@ -152,7 +140,7 @@ body {
 
 .mod-custommod-mark {
     height: 44px;
-    width: 282px;
+    width: 250px;
     color: #ffffff;
     font-family: "Neue Haas Unica";
     font-size: 18px;
@@ -161,7 +149,7 @@ body {
     line-height: 20px;
     text-align: center;
     background-color: #593c6e;
-    border-radius: 12px;
+    border-radius: 20px;
     border: none;
 }
 .mod-custommod-progress-part {
@@ -197,7 +185,7 @@ body {
     width: 26.39px;
     color: #9497a2;
 }
-
+/* 
 @media only screen and (max-width: 400px) {
     .main-section {
         padding-left: none;
@@ -229,12 +217,12 @@ body {
     }
     .mod-custommod-right-part {
         margin-left: 140px;
-    }
-    .mod-custommod-right {
-        width: 500px;
-        /* height: 350px; */
-    }
-    .mod-custommod-last-section {
+    } */
+/* .mod-custommod-right { */
+/* width: 500px; */
+/* height: 350px; */
+/* } */
+/* .mod-custommod-last-section {
         padding-left: 60px;
         padding-right: 20px;
     }
@@ -243,4 +231,4 @@ body {
         font-size: 24px;
         font-weight: 900;
     }
-}
+} */

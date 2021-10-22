@@ -1,5 +1,14 @@
+* {
+    font-family: "NeueHaasUnica Light";
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 .main-section {
-    width: 1400px;
+    width: 100%;
 }
 
 .row {
@@ -7,8 +16,8 @@
 }
 
 .navbar-section {
-    height: 27px;
-    width: 606px;
+    /* height: 27px; */
+    width: 100%;
     margin-top: 40px;
     padding: 2px;
 }
@@ -21,75 +30,60 @@
 }
 .nav-para {
     color: #9497a2;
-    font-family: "Neue Haas Unica";
     font-size: 20px;
     letter-spacing: 0;
     line-height: 24px;
 }
 .interactive-section {
-    margin-top: 40px;
-    height: 39px;
-    width: 443px;
+    /* margin-top: 40px; */
+
+    width: 100%;
 }
 
 .interactive {
     color: #2f3332;
-    font-family: "Neue Haas Unica";
     font-size: 18px;
     letter-spacing: 0;
     line-height: 24px;
 }
 .management-section {
-    width: 1170px;
-    height: 35px;
+    width: 100%;
+    margin-top: 30px;
 }
 .management {
-    font-weight: 600;
-
     color: #593c6e;
-    font-family: "Neue Haas Unica";
     font-size: 42px;
     font-weight: 900;
     letter-spacing: 0;
     line-height: 48px;
 }
 
-.middle-part {
-    padding-right: 5px;
-    width: 670px;
-    height: 250px;
+.intro-part {
+    width: 100%;
 }
 
-/* .intro-part {
-    margin-top: 20px;
-} */
-
 .intro {
-    /* margin-top: 80px; */
     color: #593c6e;
-    font-family: "Neue Haas Unica";
     font-weight: 700;
     margin-bottom: 15px;
 }
 .intro-para {
-    height: 254px;
-    width: 670px;
+    width: 100%;
     color: #2f3332;
-    font-family: "Neue Haas Unica";
     font-size: 16px;
     letter-spacing: 0;
     line-height: 24px;
 }
 
 .right-part {
-    margin-top: 180px;
+    margin-top: 100px;
 }
 
 .right {
     border: 1px solid #115ca8;
     box-sizing: border-box;
-    height: 233px;
-    width: 369px;
+
+    width: 100%;
     text-align: justify;
     padding: 5px;
     padding-top: 20px;
@@ -108,22 +102,19 @@
     margin-bottom: 20px;
 }
 .image {
-    width: 1170px;
-    height: 658px;
+    width: 100%;
 }
 
 .progress-section {
     display: flex;
-    width: 1200px;
-    padding: 7px;
+    width: 100%;
+    padding-top: 7px;
     justify-content: space-between;
     align-items: center;
 }
 .progress-part {
     display: flex;
     align-items: center;
-    width: 350px;
-    justify-content: space-evenly;
 }
 .progress {
     width: 160px;
@@ -142,23 +133,21 @@
 }
 
 .resume {
-    height: 44px;
-    width: 282px;
     color: #ffffff;
-    font-family: "Neue Haas Unica";
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 0;
     line-height: 20px;
     text-align: center;
-    background-color: #593c6e;
-    border-radius: 12px;
     border: none;
+    height: 44px;
+    width: 196px;
+    border-radius: 20px;
+    background-color: #593c6e;
 }
 .mark-as {
     width: 326px;
     color: #593c6e;
-    font-family: "Neue Haas Unica";
     font-size: 18px;
     font-weight: 800;
     background-color: #ffffff;
@@ -174,20 +163,22 @@
     width: 26.39px;
     color: #9497a2;
 }
-
+/* 
 @media only screen and (max-width: 400px) {
     .intro-para {
-        font-size: 25px;
+        font-size: 28px;
         line-height: normal;
-        font-family: sans-serif;
+        max-width: 100%;
+        display: fluid;
+
         font-weight: 500;
-        margin-bottom: 20px;
     }
 
     .intro {
         font-weight: 900;
         font-size: 30px;
     }
+
     .task {
         font-size: 24px;
     }
@@ -198,3 +189,59 @@
         margin-top: 25px;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .intro-part {
+        width: fit-content;
+        margin-bottom: 4px;
+    }
+
+    .intro-para {
+        font-size: 28px;
+        line-height: normal;
+
+        font-weight: 500;
+    }
+
+    .intro {
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    .task {
+        font-size: 24px;
+    }
+    .right {
+        height: none;
+        width: 410px;
+        height: 285px;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 736px) {
+    .intro-para {
+        font-size: 28px;
+        line-height: normal;
+
+        width: 100%;
+
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+
+    .intro {
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    .task {
+        font-size: 24px;
+    }
+    .right {
+        height: none;
+        width: 410px;
+        height: 285px;
+        margin-top: 25px;
+    }
+} */
