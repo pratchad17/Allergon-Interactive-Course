@@ -15,42 +15,42 @@ body {
     align-items: center;
 }
 
-.navbar-section {
+.format-singlesection-navbar-section {
     /* height: 27px; */
     width: 100%;
     margin-top: 40px;
     padding: 2px;
 }
 
-.navbar-section-part {
+.format-singlesection-navbar-section-part {
     text-decoration: none;
     font-size: 20px;
     color: #9497a2;
     font-weight: 400;
 }
-.nav-para {
+.format-singlesection-nav-para {
     color: #9497a2;
     font-size: 20px;
     letter-spacing: 0;
     line-height: 24px;
 }
-.interactive-section {
+.format-singlesection-interactive-section {
     margin-top: 40px;
 
     width: 100%;
 }
 
-.interactive {
+.format-singlesection-interactive {
     color: #2f3332;
     font-size: 18px;
     letter-spacing: 0;
     line-height: 24px;
 }
-.management-section {
+.format-singlesection-management-section {
     width: 100%;
     margin-top: 30px;
 }
-.management {
+.format-singlesection-management {
     color: #593c6e;
     font-family: "NeueHaasUnica bold";
     font-size: 42px;
@@ -59,17 +59,17 @@ body {
     line-height: 48px;
 }
 
-.intro-part {
+.format-singlesection-intro-part {
     width: 100%;
 }
 
-.intro {
+.format-singlesection-intro {
     color: #593c6e;
     font-family: "NeueHaasUnica bold";
     font-weight: 700;
     margin-bottom: 15px;
 }
-.intro-para {
+.format-singlesection-intro-para {
     width: 100%;
     color: #2f3332;
     font-size: 16px;
@@ -81,7 +81,7 @@ body {
     margin-top: 100px;
 } */
 
-.right {
+.format-singlesection-right {
     border: 1px solid #115ca8;
     box-sizing: border-box;
 
@@ -91,16 +91,16 @@ body {
     padding-top: 20px;
 }
 
-.task {
+.format-singlesection-task {
     color: #115ca8;
 
     font-weight: 700;
 }
-.subject {
+.format-singlesection-subject {
     color: black;
     font-weight: 400;
 }
-.image-section {
+.format-singlesection-image-section {
     margin-bottom: 20px;
 }
 .image {
@@ -126,7 +126,7 @@ body {
     background-color: #593c6e;
 }
 
-.concluded {
+.format-singlesection-concluded {
     font-size: 12px;
     font-weight: 400;
     color: #b5bbc8;
@@ -134,7 +134,7 @@ body {
     padding-left: 0px;
 }
 
-.resume {
+.format-singlesection-resume {
     color: #ffffff;
     font-size: 18px;
     font-weight: 700;
@@ -147,7 +147,7 @@ body {
     border-radius: 20px;
     background-color: #593c6e;
 }
-.mark-as {
+.format-singlesection-mark-as {
     width: 326px;
     color: #593c6e;
     font-size: 18px;
